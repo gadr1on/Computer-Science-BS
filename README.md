@@ -69,15 +69,15 @@ ID | Courses | Credits | Prerequisites
 ENGR3200 | Probability and Statistics | 3 | MATH2251
 MATH3350 | Linear Algebra | 3 | MATH2251
 ELEN4610 | Analog and Digital Communications | 4 | ELEN3430
-COEN___ | ____________ | ___ | ____
+COEN4450 | Data Science | 4 | MTH3350
 ENGR3300 | Engineering Economy | 3 | MATH2251
 
 #### 2<sup>nd</sup> Semester
 ID | Courses | Credits | Prerequisites
 :--: | :--: | :--: | :--:
-COEN___ | ___ | ___ | ___
-COEN___ | ___ | ___ | ___
+COEN4422 | User Interface Design | 3 | COEN3410
+COEN4420 | Computerized Information System Design | 4 | COEN3410
 ELEN4810 | Computer Engineering Project Design | 3 | Department Chair Approval
 GECF1010 | Introduction to Christian Faith | 3 | none
 GEPE4040 | Social Ethics and Responsibility | 3 | none
-__ | Free Elective | __ | ___
+AEST3001 | The Air Force of Today (Free Elective) | 2 | Join ROTC
