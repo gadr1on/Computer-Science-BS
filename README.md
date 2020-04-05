@@ -4,19 +4,19 @@ Classes taken in BS
 ## First Year
 
 #### 1<sup>st</sup> Semester
-ID | Courses | Credits | Prerequisites | Projects
+ID | Courses | Credits | Prerequisites
 :--: | :--: | :--: | :--: | :--:
-MATH1500 | Pre-calculus | 5 | GEMA1200 |
-ENGR1100 | Intro to Engineering | 3 | none |
-GESP1101 | Literature and Communication I | 3 | none |
-GEEN1101 | English as a Second Language I | 3 | GEEN1201 |
-GEHS2010 | History of Puerto Rico | 3 | none |
+MATH1500 | Pre-calculus | 5 | GEMA1200
+ENGR1100 | Intro to Engineering | 3 | none
+GESP1101 | Literature and Communication I | 3 | none
+GEEN1101 | English as a Second Language I | 3 | GEEN1201
+GEHS2010 | History of Puerto Rico | 3 | none
 
 #### 2<sup>nd</sup> Semester
 ID | Courses | Credits | Prerequisites | Projects
 :--: | :--: | :--: | :--: | :--:
 MATH2251 | Calculus I | 5 | MATH1500 |
-COEN2210 | Introduction to Programming | 4 | MATH1500 |
+COEN2210 | Introduction to Programming | 4 | MATH1500 | [Camel Game](https://github.com/gadr1on/Camel-Game)
 GESP1102 | Literature and Communication II | 3 | GESP1101 |
 GEEN1102 | English as a Second Language II | 3 | GEEN1101 |
 ENGR1200 | Introduction to Sustainable Energy | 3 | ENGR1100 |
