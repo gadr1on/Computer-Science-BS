@@ -5,7 +5,7 @@ Classes taken in BS
 
 #### 1<sup>st</sup> Semester
 ID | Courses | Credits | Prerequisites
-:--: | :--: | :--: | :--: | :--:
+:--: | :--: | :--: | :--: 
 MATH1500 | Pre-calculus | 5 | GEMA1200
 ENGR1100 | Intro to Engineering | 3 | none
 GESP1101 | Literature and Communication I | 3 | none
