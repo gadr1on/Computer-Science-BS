@@ -16,10 +16,10 @@ GEHS2010 | History of Puerto Rico | 3 | none
 ID | Courses | Credits | Prerequisites
 :--: | :--: | :--: | :--:
 MATH2251 | Calculus I | 5 | MATH1500
-COEN2210 | [Introduction to Programming](https://github.com/gadr1on/Camel-Game) | 4 | MATH1500
+COEN2210 | [Introduction to Programming](https://github.com/gadr1on/Computer-Science-BS/tree/master/intro_to_programming) | 4 | MATH1500
 GESP1102 | Literature and Communication II | 3 | GESP1101
 GEEN1102 | English as a Second Language II | 3 | GEEN1101
-ENGR1200 | Introduction to Sustainable Energy | 3 | ENGR1100 
+ENGR1200 | Introduction to Sustainable Energy | 3 | ENGR1100
 
 ## Second Year
 
@@ -30,7 +30,7 @@ MATH2252 | Calculus II | 4 | MATH2251
 PHYS3311 | General Physics for Engineers I | 4 | MATH2251
 |GEEN1103 | English as a Second Language III | 3 | GEEN1102
 GESP2203 | Literature and World View | 3 | GESP1102
-COEN2220 | Advanced Programming | 4 | COEN2210
+COEN2220 | [Advanced Programming](https://github.com/gadr1on/Computer-Science-BS/tree/master/advanced_programming) | 4 | COEN2210
 
 #### 2<sup>nd</sup> Semester
 ID | Courses | Credits | Prerequisites
