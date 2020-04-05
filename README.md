@@ -13,13 +13,13 @@ GEEN1101 | English as a Second Language I | 3 | GEEN1201
 GEHS2010 | History of Puerto Rico | 3 | none
 
 #### 2<sup>nd</sup> Semester
-ID | Courses | Credits | Prerequisites | Projects
-:--: | :--: | :--: | :--: | :--:
-MATH2251 | Calculus I | 5 | MATH1500 |
-COEN2210 | [Introduction to Programming](https://github.com/gadr1on/Camel-Game) | 4 | MATH1500 |
-GESP1102 | Literature and Communication II | 3 | GESP1101 |
-GEEN1102 | English as a Second Language II | 3 | GEEN1101 |
-ENGR1200 | Introduction to Sustainable Energy | 3 | ENGR1100 |
+ID | Courses | Credits | Prerequisites
+:--: | :--: | :--: | :--:
+MATH2251 | Calculus I | 5 | MATH1500
+COEN2210 | [Introduction to Programming](https://github.com/gadr1on/Camel-Game) | 4 | MATH1500
+GESP1102 | Literature and Communication II | 3 | GESP1101
+GEEN1102 | English as a Second Language II | 3 | GEEN1101
+ENGR1200 | Introduction to Sustainable Energy | 3 | ENGR1100 
 
 ## Second Year
 
@@ -73,7 +73,7 @@ COEN___ | ____________ | ___ | ____
 ENGR3300 | Engineering Economy | 3 | MATH2251
 
 #### 2<sup>nd</sup> Semester
-ID | Courses | Credits | Prerequisites 
+ID | Courses | Credits | Prerequisites
 :--: | :--: | :--: | :--:
 COEN___ | ___ | ___ | ___
 COEN___ | ___ | ___ | ___
