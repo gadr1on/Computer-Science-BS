@@ -1,0 +1,59 @@
+Part Two: Fixing the Bugs
+-------------------------
+
+Understanding the code
+
+  1) Explain why this program uses the exclamation operator with the
+     strcmp() function.
+
+     #####################################################################
+     SOL: If tow string match then strcmp function return 0 so, ! is not
+     means it will convert 0 to 1. that is why it used ! sign.
+     #####################################################################
+
+  2) Explain why the 'LENGTH' macro returns the length of an array.
+     Would it work with a pointer to a dynamically allocated array? (Hint:
+     understand sizeof).
+
+     #####################################################################
+     SOL: LENGTH macro will return size of array . it will not user with
+     pointer or DMA because of pointer return only size of pointer means
+     4 or 8.
+     #####################################################################
+
+Bug hunting
+
+  3) Explain and fix the logical flow bug within the switch statement.
+     (What happens when the -h option is used?)
+
+     #####################################################################
+     SOL: In the switch statement instead of using break we can use return
+     EXIT_SUCCESS. If we are using break, the program still get executes
+     after printing the help statement. It expects the used to enter data
+     even if the user had used -h option for help. It also prints "Looking
+     for a single word" as, '-h' is considered as one argument and it tries
+     to find '-h' from users input. We can use return statement to fix
+     this issue.
+     #####################################################################
+
+  4) Explain and fix the argument parsing error. (Why is entryCount never
+     zero?)
+
+     #####################################################################
+     SOL: entryCount can never be 0 as it gets incremented here. No matter
+     if you don't supply any argument. We can fix this issue by initializing
+     entryCount to -1 and incrementing its value at the beginning of the
+     while loop.
+     #####################################################################
+
+  5) Fix print_result() to print results correctly and in the same order
+     as the words were specified on the command line.  Explain your solution.
+
+     #####################################################################
+     SOL: Fix in the print_result() and process_stream function : The problem
+      in the existing program was, it will not consider the last argument
+      for count. Example : how many 'dog' present will never be printed.
+      The issue is in the while (i < entry_count). The counter is not hitting
+      the last argument supplied. If we replace it with while (i <= entry_count)
+      then the program works fine.
+     #####################################################################

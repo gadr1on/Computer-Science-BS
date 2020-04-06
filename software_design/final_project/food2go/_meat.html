@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Food2Go</title>
+    <meta name="description" content="A clean, responsive storefront boilerplate with no database or backend">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/imports.min.css">
+    <link rel="stylesheet" href="css/simpleStore.min.css">
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #33c3f0;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: inline-block;
+            color: white;
+            text-align: right;
+            padding: 1px 100px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #33c3f0;
+        }
+
+        .dropbtn {
+            background-color: black;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: lightgrey;
+            min-width: 200px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {background-color: white;}
+        .dropdown:hover .dropdown-content {display: block;}
+        .dropdown:hover .dropbtn {background-color: grey;}
+
+</style>
+
+</head>
+<body>
+
+
+    <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container simpleStore">
+        <div class="row">
+                <img src="images/logo.png" align="top" WIDTH=270 HEIGHT=40>
+
+
+
+                <div class="dropdown" style="float:right">
+                <button class="dropdown"><i class="fa fa-bars"></i> Menu</button>
+                <div class="dropdown-content">
+
+                  <a href="http://localhost/food2go/_rum">Rum & Beer</a>
+                  <a href="http://localhost/food2go/_candy">Snacks & Candy</a>
+                  <a href="http://localhost/food2go/_fruits">Fruits & Vegetables</a>
+                  <a href="http://localhost/food2go/_meat">Meat</a>
+                  <a href="http://localhost/food2go/_bread">Bread & Bakery</a>
+                  <a href="http://localhost/food2go/_dessert">Dessert</a>
+
+                </div>
+                </div>
+
+                <a class="button button-primary u-pull-right simpleStore_viewCart">
+                <i class="fa fa-shopping-cart"></i> Cart <span class="simpleCart_total">$0.00</span>
+            </a>
+        </div>
+
+
+
+        <h2 align="center" color="#009" >Meat</h2>
+
+        <div class="simpleStore_container" style="display: block;"><div class="row simpleStore_row_1"><div class="column one-third">
+
+        </div></div></div>
+
+        <div class="simpleStore_cart_container" style="display: none;"><div class="simpleStore_cart">
+            <h2>Cart</h2>
+            <a href="#" class="close">×</a>
+
+            <div class="row">
+                <div class="eight columns">
+                    <div class="simpleCart_items"> <div><div class="headerRow"><div class="item-name">Name</div><div class="item-price">Price</div><div class="item-decrement"></div><div class="item-quantity">Qty</div><div class="item-increment"></div><div class="item-total">SubTotal</div><div class="item-remove"></div></div><div class="itemRow row-0 odd" id="cartItem_SCI-1"><div class="item-name">Cool T-shirt</div><div class="item-price">$15.99</div><div class="item-decrement"><a href="javascript:;" class="simpleCart_decrement">-</a></div><div class="item-quantity">1</div><div class="item-increment"><a href="javascript:;" class="simpleCart_increment">+</a></div><div class="item-total">$15.99</div><div class="item-remove"><a href="javascript:;" class="simpleCart_remove">Remove</a></div></div></div></div>
+                    <a href="javascript:;" class="simpleCart_empty u-pull-left">Empty Cart <i class="fa fa-trash-o"></i></a>
+                </div>
+                <div class="four columns">
+                    <div class="cart_info">
+                        <div class="cart_info_item cart_itemcount">Items:
+                            <div class="simpleCart_quantity">1</div>
+                        </div>
+                        <div class="cart_info_item cart_taxrate">Tax Rate:
+                            <div class="simpleCart_taxRate">0</div>
+                        </div>
+                        <div class="cart_info_item cart_tax">Tax:
+                            <div class="simpleCart_tax">$0.00</div>
+                        </div>
+                        <div class="cart_info_item cart_shipping">Shipping:
+                            <div class="simpleCart_shipping">$0.00</div>
+                        </div>
+                        <div class="cart_info_item cart_total"><b>Total:
+                            <div class="simpleCart_grandTotal">$15.99</div>
+                        </b></div>
+                        <a href="javascript:;" class="button button-primary simpleStore_checkout u-pull-right">Checkout <i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div></div>
+    </div>
+
+    <!-- Templates
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <!-- Products View -->
+    <script id="products-template" type="x-template">
+        <div class="column">
+            <div class="simpleCart_shelfItem">
+                <img src="" class="item_thumb"/>
+                <div class="row">
+                    <h5 class="item_name"></h5>
+                    <div class="simpleStore_getDetail_container">
+                        <span class="item_price"></span>
+                    </div>
+                    <div class="simpleStore_getDetail_container">
+                        <a class="button u-pull-right simpleStore_getDetail">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <!-- Product Detail View -->
+    <script id="product-detail-template" type="x-template">
+        <div class="simpleCart_shelfItem simpleStore_detailView">
+            <a href="#" class="close view_close">&times;</a>
+
+            <div class="row">
+                <div class="four columns">
+                    <img src="" class="item_thumb"/>
+                </div>
+                <div class="eight columns">
+                    <h5 class="item_name"></h5>
+
+                    <p class="item_description"></p>
+                    <span class="item_price"></span>
+
+                    <div class="qty">
+                        <label>QTY</label>
+                        <input type="number" value="1" min="1" step="1" class="item_Quantity">
+                    </div>
+                    <div class="simpleStore_options"></div>
+                    <a class="item_add button u-pull-right" href="javascript:;">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <!-- Cart View -->
+    <script id="cart-template" type="x-template">
+        <div class="simpleStore_cart">
+            <h2>Cart</h2>
+            <a href="#" class="close">&times;</a>
+
+            <div class="row">
+                <div class="eight columns">
+                    <div class="simpleCart_items"></div>
+                    <a href="javascript:;" class="simpleCart_empty u-pull-left">Empty Cart <i class="fa fa-trash-o"></i></a>
+                </div>
+                <div class="four columns">
+                    <div class="cart_info">
+                        <div class="cart_info_item cart_itemcount">Items:
+                            <div class="simpleCart_quantity"></div>
+                        </div>
+                        <div class="cart_info_item cart_taxrate">Tax Rate:
+                            <div class="simpleCart_taxRate"></div>
+                        </div>
+                        <div class="cart_info_item cart_tax">Tax:
+                            <div class="simpleCart_tax"></div>
+                        </div>
+                        <div class="cart_info_item cart_shipping">Shipping:
+                            <div class="simpleCart_shipping"></div>
+                        </div>
+                        <div class="cart_info_item cart_total"><b>Total:
+                            <div class="simpleCart_grandTotal"></div>
+                        </b></div>
+                        <a href="javascript:;" class="button button-primary simpleStore_checkout u-pull-right">Checkout <i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <!-- Error View -->
+    <script id="error-template" type="x-template">
+        <div class="error">
+            <b>Sorry, something went wrong :(</b>
+			<p class="error_text"></p>
+			<a href="#" class="close alert_close">&times;</a>
+        </div>
+    </script>
+
+     <!-- Notify View -->
+    <script id="notify-template" type="x-template">
+        <div class="notify">
+            <p class="notify_text"></p>
+        </div>
+    </script>
+
+<!-- End Document
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/simpleCart.min.js"></script>
+<script src="js/simpleStore.min.js"></script>
+<script src="plugins/google-sheets/google-sheets.js"></script>
+<script src="js/config.js"></script>
+
+
+</body>
+</html>

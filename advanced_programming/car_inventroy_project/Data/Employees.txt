@@ -1,0 +1,50 @@
+Margene,Kelton,automotive service technician apprentice,+17873002312
+Joshua,Haakenson,automotive service technician - electrical and fuel systems,+17877463169
+Roy,Buker,automotive service technician - fuel and electronics systems,+17879193689
+Anabel,Laguerre,automotive service technician - steering suspension and brakes,+17875051620
+Veronique,Vanegas,automotive technician - standard transmission systems,+17878276242
+Elroy,Arsenault,automotive technician - transmission systems,+17873628380
+Vergie,Rikard,automotive vehicle testing mechanic,+17876201455
+Elsie,Lombard,brake systems mechanic,+17872965294
+Emilie,Buckwalter,bus and transport mechanic,+17879637551
+Gaye,Escalante,bus and truck mechanic,+17876248925
+Elliot,Hanlin,bus mechanic,+17872510461
+Violette,Bealer,car mechanic,+17872550322
+Evelynn,Fason,commercial trailer mechanic,+17878314686
+Linwood,Eves,commercial trailer technician,+17872415745
+Laurene,Cordova,commercial transport vehicle mechanic,+17879845037
+Lannie,Klump,diagnostic technician - motor vehicles,+17874406527
+Lynda,Fierros,engine mechanic - motor vehicle,+17871798605
+Lavern,Vercher,front-end mechanic,+17877505233
+Kay,Pickney,fuel and electrical systems technician - motor vehicle,+17878791249
+Shanon,Arens,garage mechanic,+17873094944
+Tessa,Tremaine,mechanical repairer - motor vehicle,+17872287922
+Jacquelyn,Esqueda,mechanical repairman - motor vehicle,+17875185816
+Darren,Uresti,mechanical repairwoman - motor vehicle,+17874973480
+Lesley,Parmentier,mechanical upgrader - motor vehicle manufacturing,+17875245463
+Viviana,Coder,mechanic automobile,+17873355548
+Paige,Suydam,mechanic bus,+17879524613
+Lorinda,Robert,mechanic car,+17873623180
+Clorinda,Sun,motor mechanic - motor vehicle manufacturing,+17875809678
+Beaulah,Decato,motor repairer - motor vehicle manufacturing,+17872444226
+Cleora,Plourde,motor repairman - motor vehicle manufacturing,+17877576892
+Arvilla,Mckitrick,motor repairwoman - motor vehicle manufacturing,+17874494934
+Meagan,Mcbain,motor vehicle diesel engine mechanic,+17873457770
+Adah,Dipietro,motor vehicle fuel conversion technician,+17878513742
+Debra,Sansone,motor vehicle fuel-systems and electric-systems mechanic,+17875604696
+Phyliss,Chang,motor vehicle mechanic,+17876580332
+Jospeh,Groce,motor vehicle mechanical repairer,+17875078916
+Jessenia,Rockhold,motor vehicle mechanical repairman,+17873163635
+Rachele,Lamark,motor vehicle mechanical repairwoman,+17875663824
+Ardith,Caudle,motor vehicle technician,+17874759789
+Malcolm,Kaelin,motor vehicle transmission mechanic,+17874248680
+Frida,Antos,new car mechanic,+17876124178
+Grady,Baro,trailer mechanic,+17877730910
+Lore,Sitsler,trailer mechanical systems repairer,+17871314537
+Alyse,Gutirrez,trailer mechanical systems repairman,+17875227887
+Elsy,Aponte,trailer mechanical systems repairwoman,+17874212087
+Deedee,Hunsinger,transmission mechanic,+17878138371
+Bobbi,Thakkar,transmission technician,+17878161737
+Mozelle,Jobin,transport truck mechanic,+17876930988
+Sulema,Aguon,wheel alignment and brake mechanic,+17876638699
+Wally,Loza,wheel alignment and brake specialist,+17877287295

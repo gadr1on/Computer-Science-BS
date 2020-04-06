@@ -37,7 +37,7 @@ ID | Courses | Credits | Prerequisites
 :--: | :--: | :--: | :--:
 MATH3400 | Differential Equations | 3 | MATH2252
 PHYS3312 | General Physics for Engineers II | 4 | PHYS3311
-ELEN3301 | Electrical Circuits I | 4 | PHYS3312
+ELEN3301 | [Electrical Circuits I](https://drive.google.com/open?id=1AOVkA_feJ12ZZ98kN39msH5H8SQkLfR-) | 4 | PHYS3312
 ELEN3320 | Logic Circuits | 4 | ELEN3301
 COEN2310 | Discrete Mathematics for Computer Engineering | 3 | COEN2220
 

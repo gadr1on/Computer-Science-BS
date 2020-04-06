@@ -1,0 +1,11 @@
+{
+	"products" : [
+		{
+			"name" : "Ice Cube",
+			"price" : "0.99",
+			"options" : [],
+			"image" : "https://i.ytimg.com/vi/OMQ7U3tfwv8/maxresdefault.jpg",
+			"description" : "The Rapper (Water)"
+		}
+	]
+}

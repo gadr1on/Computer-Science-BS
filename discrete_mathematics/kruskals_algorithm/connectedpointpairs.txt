@@ -1,0 +1,3 @@
+# https://meyavuz.wordpress.com/2017/03/11/how-does-kruskals-algorithm-progress/
+0 2
+1 2
